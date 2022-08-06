@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background: rebeccapurple;
+html,
+body {
+  transition: background-color 0.618s linear;
 }

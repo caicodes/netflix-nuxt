@@ -9,6 +9,9 @@ export default defineNuxtConfig({
       postcssOptions: require("./postcss.config.js"),
     },
   },
+  meta: {
+    title: "HBO Vue -- a Cai Toy clone...",
+  },
   gsap: {
     extraPlugins: {
       scrollTo: true,
