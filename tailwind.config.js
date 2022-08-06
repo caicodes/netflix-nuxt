@@ -18,12 +18,15 @@ module.exports = {
 
 /*
 
+Now... coming soon... using daisyui and tailwind to 
+create the HBO theme... with like 5 variables!
+
 module.exports = {
   //...
   daisyui: {
     themes: [
       {
-        mytheme: {
+        hbo: {
           primary: "#a991f7",
           secondary: "#f6d860",
           accent: "#37cdbe",
