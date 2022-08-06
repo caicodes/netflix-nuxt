@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy"), url(@/fonts/Gilroy-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: local("Gilroy"), url(@/fonts/Gilroy-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: local("Gilroy"), url(@/fonts/Gilroy-Regular.woff2) format("woff2");
+}
+
+html,
+body {
+  transition: background-color 0.618s linear;
+}
+
+body {
+  background-color: #030328;
+  color: #fff;
+  font-family: "Gilroy-Regular", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  overflow-x: hidden !important;
+}
+
+.dBWzrh.btn--tertiary {
+  background-color: rgb(181, 53, 246);
+  color: rgb(255, 255, 255);
+  border: 2px solid transparent;
+  overflow: hidden;
+  transition: all 0.5s ease 0s !important;
+}
+
+.btn-color {
+  background: #b535f6;
+}
+
+.max-section-hero-dbl-scroll h1 {
+  font-size: 1.6em;
+  margin: 20px auto;
+  max-width: 600px;
+}

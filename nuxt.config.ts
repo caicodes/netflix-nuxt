@@ -2,7 +2,7 @@ import { defineNuxtConfig } from "nuxt";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  css: ["@/assets/css/tailwind.css"],
+  css: ["@/styles/tailwind.css"],
   // modules: ["@nuxtjs/tailwindcss"], // no customization version
   build: {
     postcss: {

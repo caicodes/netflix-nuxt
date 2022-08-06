@@ -12,11 +12,23 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["synthwave"],
+    themes: [
+      {
+        hbo: {
+          primary: "#a991f7",
+          secondary: "#b535f6",
+          accent: "#37cdbe",
+          neutral: "#3d4451",
+          "base-100": "#030328",
+        },
+      },
+    ],
   },
 };
 
 /*
+
+HBO bg - #030328
 
 Now... coming soon... using daisyui and tailwind to 
 create the HBO theme... with like 5 variables!
