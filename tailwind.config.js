@@ -17,7 +17,7 @@ module.exports = {
         hbo: {
           primary: "#a991f7",
           secondary: "#b535f6",
-          accent: "#37cdbe",
+          accent: "#7e22ce",
           neutral: "#3d4451",
           "base-100": "#030328",
         },
