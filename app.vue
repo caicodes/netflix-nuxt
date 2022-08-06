@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     hbo clone
   </div>
@@ -18,4 +18,30 @@ useHead({
     class: 'test'
   }
 })
+</script>
+ -->
+
+<template>
+  <main class="grid place-items-center h-screen  text-pink-500 text-4xl font-bold">
+    <div class="flex hello">Hello! Let's go get daisyUI now...<div class="celebrate"> 🎉</div>
+    </div>
+  </main>
+</template>
+
+<script>
+import gsap from 'gsap'
+
+export default {
+  mounted() {
+    this.sayHello()
+  },
+
+  methods: {
+    sayHello() {
+      gsap.to(".hello", { rotation: -23, y: -200, duration: 2 });
+      gsap.to(".hello", { opacity: 0, duration: 2, scale: 3, ease: "expoScale(1, 3)" });
+    }
+  }
+}
+
 </script>

@@ -1,0 +1,67 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transition: background-color 0.5s ease-in-out !important;
+  transition: background-color 0.5s ease-in-out !important;
+}
+
+// navbar brand logo/img
+.gbxGXs img {
+  width: 160px;
+  height: 27px;
+}
+
+// sign in
+.dBWzrh.btn--secondary-outlined {
+  background: linear-gradient(
+      345deg,
+      rgb(73, 12, 176) 0%,
+      rgb(155, 52, 239) 33%,
+      rgba(255, 255, 255, 0) 66%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    1% 50% / 400% 400%;
+  border: 2px solid rgb(198, 0, 255);
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  transition: all 0.5s ease 0s !important;
+}
+// sign up
+.plan-picker.btn--tertiary {
+  background-color: rgb(181, 53, 246);
+  color: rgb(255, 255, 255);
+  border: 2px solid transparent;
+  overflow: hidden;
+  transition: all 0.5s ease 0s !important;
+}
+
+.max-section-hero-dbl-scroll img.img-fluid {
+  margin-top: 3rem;
+  max-width: 300px;
+}
+
+.max-section-hero-dbl-scroll h1 {
+  font-size: 1.6em;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+// signup now button
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.bBfjku.btn--primary-outlined {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.bBfjku {
+  font-family: Gilroy;
+  transition: all 0.4s ease 0s;
+}
+.btn-light:hover,
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
