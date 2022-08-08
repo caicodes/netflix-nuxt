@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary: #9e86ff;
+  --primary-focus: #a991f7;
+  --primary-content: white;
+  --secondary: #b535f6;
+  --secondary-focus: #c800ff;
+  --secondary-content: white;
+  --accent: #7e22ce;
+  --accent-focus: #7b2abf;
+  --accent-content: #ff00e5;
+  --neutral: #480cb0;
+  --base-100: #030326;
+  --base-300: #0e0538;
+}
+
 @font-face {
   font-family: "Gilroy-Bold";
   src: local("Gilroy-Bold"), url(@/fonts/Gilroy-Bold.woff2) format("woff2");
@@ -18,30 +33,46 @@
     url(@/fonts/Gilroy-Regular.woff2) format("woff2");
 }
 
+.have-questions {
+  background: rgba(0, 0, 0.3);
+}
+
 .brand-font-regular {
   font-family: "Gilroy-Regular";
 }
 .brand-font-medium {
   font-family: "Gilroy-Medium";
 }
+
 .brand-font-bold {
   font-family: "Gilroy-Bold";
 }
 
-html,
+.ways-to-get {
+  background: rgb(13, 5, 54);
+}
+
+a {
+  color: #9e86ff;
+}
+a:hover {
+  color: white;
+}
+
+html {
+  background: var(--base-100);
+}
+
 body {
   transition: background-color 0.618s linear;
 }
 
 body {
-  background-color: #030328;
-  color: #fff;
-  font-family: "Gilroy-Regular", -apple-system, BlinkMacSystemFont, Segoe UI,
-    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-family: "Gilroy-Regular" !important;
   font-size: 1.25rem;
   line-height: 1.6;
   overflow-x: hidden !important;
+  background: transparent;
 }
 
 .dBWzrh.btn--tertiary {
@@ -60,4 +91,14 @@ body {
   font-size: 1.6em;
   margin: 20px auto;
   max-width: 600px;
+}
+
+.max-section-marquee-title h4:before {
+  border-image-source: linear-gradient(to left, #7b2abf, transparent);
+  margin: 0 20px 0 0;
+}
+
+.max-section-marquee-title h4:after {
+  border-image-source: linear-gradient(to right, #7b2abf, transparent);
+  margin: 0 0 0 20px;
 }

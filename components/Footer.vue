@@ -1,45 +1,32 @@
 <script setup>
-
-const FooterLinks = [
-    "Privacy",
-    "Do Not Sell My Personal Information",
-    "Terms of Use",
-    "Ad Choices",
-    "Help",
-    "Join the Team",
-    "Press Releases",
-    "Company",
-    "Press Contacts",
-    "HBO Max Advertising",
-    "Affiliate Marketing Program",
-]
-
-const FooterActions = [
-    "explore what's on",
-    "movies",
-    "tv shows",
-    "originals",
-    "free episodes",
-]
-
-const CopyrightText = '©2022 WarnerMedia Direct, LLC. All Rights Reserved. HBO Max™ is used under license.';
-
+import { FooterLinks, FooterActions, CopyrightText } from '~~/constants';
 </script>
 
 <template>
-    <footer class="footer footer-center p-10 bg-base-100 text-base-content rounded">
-        <div class="grid grid-flow-col gap-4">
-            <NuxtLink to="/" class="btn btn-ghost hover:bg-inherit hover:text-white" v-for="Link in FooterActions">{{
-                    Link
-            }}</NuxtLink>
+
+
+
+    <footer class="footer footer-center p-4 md:p-8 lg:p-12 bg-base-100 text-base-content ">
+
+        <div class="flex flex-wrap justify-center">
+            <NuxtLink to="/" class="footer-links btn btn-ghost hover:bg-inherit hover:text-white"
+                v-for="Link in FooterActions">{{
+                        Link
+                }}</NuxtLink>
         </div>
-        <div class="grid grid-flow-col gap-4">
-            <NuxtLink to="/" class="link link-hover" v-for="Link in FooterLinks">{{ Link }}</NuxtLink>
+        <div class="flex flex-wrap justify-center text-xs">
+            <NuxtLink to="/" class="link link-hover whitespace-nowrap m-2 " v-for="Link in FooterLinks">{{ Link }}
+            </NuxtLink>
         </div>
         <div>
-            <p>{{ CopyrightText }}</p>
+            <p class="text-xs text-primary/80">{{ CopyrightText }}</p>
         </div>
+
     </footer>
+
+
+
+
 </template>
 
 <style>
@@ -47,5 +34,13 @@ const CopyrightText = '©2022 WarnerMedia Direct, LLC. All Rights Reserved. HBO 
     font-family: Gilroy-Bold;
     letter-spacing: .2rem;
     font-size: .8rem;
+}
+
+.footer-links {
+    color: var(--primary) !important;
+}
+
+.footer-links:hover {
+    color: white !important;
 }
 </style>

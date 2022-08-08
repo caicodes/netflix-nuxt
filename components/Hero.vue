@@ -18,9 +18,9 @@
     /* background: var(--gradient-two); */
     /* background-image: linear-gradient(63.2deg, var(--gradient-one) 30.8%, var(--gradient-two) 84.3%, var(--gradient-one) 99.8%); */
 
-    background: radial-gradient(ellipse at top, var(--gradient-one), transparent), radial-gradient(ellipse at bottom, var(--gradient-two), transparent);
-    background: radial-gradient(ellipse at bottom, var(--gradient-highlight), transparent);
-    background: radial-gradient(farthest-corner at 40px 40px, var(--gradient-highlight) 0%, var(--gradient-two) 100%);
+    /* background: radial-gradient(ellipse at top, var(--gradient-one), transparent), radial-gradient(ellipse at bottom, var(--gradient-two), transparent); */
+    /* background: radial-gradient(ellipse at bottom, var(--gradient-highlight), transparent); */
+    /* background: radial-gradient(farthest-corner at 40px 40px, var(--gradient-highlight) 0%, var(--gradient-two) 100%); */
 
 }
 </style>

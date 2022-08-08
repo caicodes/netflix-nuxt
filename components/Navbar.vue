@@ -31,6 +31,7 @@
     font-size: 2.3rem;
     line-height: 0%;
     margin-left: .8rem;
+    color: white;
 }
 
 .logo-brand-light {

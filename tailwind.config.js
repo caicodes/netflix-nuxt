@@ -8,23 +8,61 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "hbo-primary": "var(--primary)",
+        "hbo-primary-focus": "var(--primary-focus)",
+        "hbo-primary-content": "var(--primary-content)",
+        "hbo-secondary": "var(--secondary)",
+        "hbo-secondary-focus": "var(--secondary-focus)",
+        "hbo-secondary-content": "var(--secondary-content)",
+        "hbo-accent": "var(--accent)",
+        "hbo-accent-content": "var(--accent-content)",
+        "hbo-neutral": "var(--neutral)",
+        "hbo-base-content": "var(--base-content)",
+        "hbo-base-100": "var(--base-100)",
+        "hbo-base-200": "var(--base-200)",
+        "hbo-base-300": "var(--base-300)",
+      },
+      // --primary: #9e86ff;
+      // --primary-focus: #a991f7;
+      // --primary-content: #ffffff;
+      // --secondary: #b535f6;
+      // --secondary-focus: #c800ff;
+      // --secondary-content: #ffffff;
+      // --accent: #7e22ce;
+      // --accent-focus: #7b2abf;
+      // --accent-content: #ff00e5;
+      // --neutral: "#480cb0;
+      // --base-100: #030326;
+      // --base-300: #0e0538;
+    },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
     themes: [
       {
         hbo: {
-          primary: "#a991f7",
+          primary: "#9e86ff",
+          "primary-focus": "#a991f7",
+          "primary-content": "#ffffff",
           secondary: "#b535f6",
+          "secondary-focus": "#c800ff",
+          "secondary-content": "#ffffff",
           accent: "#7e22ce",
-          neutral: "#3d4451",
-          "base-100": "#030328",
+          "accent-focus": "#7b2abf",
+          "accent-content": "#ff00e5",
+          neutral: "#480cb0",
+          "base-content": "#ffffff",
+          "base-100": "#030326",
+          "base-300": "#0e0538",
         },
       },
     ],
   },
 };
+
+//#030328
 
 /*
 

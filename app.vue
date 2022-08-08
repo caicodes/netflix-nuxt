@@ -1,4 +1,5 @@
 <template>
+  <AnimatedBackground />
   <Navbar />
   <Hero />
   <AcclaimedMovies />
