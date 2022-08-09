@@ -4,7 +4,7 @@ import { FooterLinks, FooterActions, CopyrightText } from '~/constants';
 
 <template>
     <footer class="footer footer-center p-4 md:p-8 lg:p-12 bg-base-100 text-base-content ">
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap justify-center flex-col md:flex-row">
             <NuxtLink to="/" class="footer-links btn btn-ghost hover:bg-inherit hover:text-white"
                 v-for="Link in FooterActions">{{
                         Link

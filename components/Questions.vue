@@ -6,11 +6,12 @@
                     <div v-for="article in list" :key="article._path" tabindex="0"
                         class="collapse collapse-plus border-base-300 border-b relative collapse-opener group">
                         <button class="absolute right-0 top-0 w-full h-20 hidden group-focus:block"></button>
-                        <div class="collapse-title text-2xl font-medium text-primary hover:text-white ">
+                        <div
+                            class="collapse-title text-sm md:text-lg lg:text-2xl font-medium text-primary hover:text-white ">
                             {{ article.title }}
                         </div>
                         <div class="collapse-content">
-                            <ContentRenderer :value="article" class="prose prose-lg p-4" />
+                            <ContentRenderer :value="article" class="prose prose-sm md:prose-md lg:prose-lg p-4" />
                         </div>
                     </div>
                 </ContentList>
