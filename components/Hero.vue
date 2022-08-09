@@ -8,12 +8,12 @@
             <div class="conveyor-belts overflow-y-auto">
                 <div id="tray-1" class="w-full mb-3 flex gap-3 -ml-28">
                     <!-- movie tiles tray one -->
-                    <img v-for="pic in trayPics1" :key="pic" :src="pic" class="w-96" />
+                    <img v-for="pic in trayPics1" :src="`./images/tiles/${pic}`" class="w-96" />
                 </div>
                 <!-- movie tile conveyor belt tray two -->
                 <div id="tray-2" class="w-full mb-3 flex gap-3">
                     <!-- movie tiles tray two -->
-                    <img v-for="pic in trayPics2" :key="pic" :src="pic" class="w-96" />
+                    <img v-for="pic in trayPics2" :src="`./images/tiles/${pic}`" class="w-96" />
                 </div>
             </div>
         </div>
