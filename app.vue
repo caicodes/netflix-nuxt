@@ -2,7 +2,7 @@
   <AnimatedBackground />
   <Navbar />
   <Hero />
-  <AcclaimedMovies />
+  <!-- <AcclaimedMovies /> -->
   <DiscoverMore />
   <FindYourNext />
   <StreamAnytime />
