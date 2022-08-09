@@ -8,7 +8,7 @@
 </script>
 
 <template>
-    <div class="h-screen w-full p-40 -z-10 bg-base-100 absolute">
+    <div class="h-screen w-full p-40 -z-10 bg-base-100 absolute overflow-hidden">
         <!-- <div class="h-[300px] w-[400px] bg-cyan-200 rounded-full blur-3xl absolute "></div> -->
         <div
             class="blur-tr h-[320px] w-full rotate-6 bg-hbo-accent rounded-full blur-3xl hue-rotate-15 absolute -top-80 -right-80 opacity-40 ">
