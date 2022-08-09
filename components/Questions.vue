@@ -9,19 +9,15 @@
                         <div class="collapse-title text-2xl font-medium text-primary hover:text-white ">
                             {{ article.title }}
                         </div>
-
                         <div class="collapse-content">
                             <ContentRenderer :value="article" class="prose prose-lg p-4" />
                         </div>
-
                     </div>
                 </ContentList>
             </div>
         </div>
     </section>
 </template>
-
-
 
 <style>
 .questions {

@@ -1,5 +1,5 @@
 <script setup>
-import { FooterLinks, FooterActions, CopyrightText } from '~~/constants';
+import { FooterLinks, FooterActions, CopyrightText } from '~/constants';
 </script>
 
 <template>

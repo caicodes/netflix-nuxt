@@ -1,31 +1,21 @@
 <template>
     <section id="top" class="h-screen flex lg:pb-20 pb-10">
-        <!-- movie treadmill container -->
+        <!-- movie hero main container -->
         <div class="flex flex-col w-full justify-center">
             <div class="text-xl p-4 md:text-2xl text-center"> Now streaming blockbuster movies, epic originals, and
-                addictive series</div>
-            <!-- movie treadmill tray one -->
-            <div class="treadmill overflow-y-auto">
+                addictive series...</div>
+            <!-- movie tile conveyor belt container -->
+            <div class="conveyor-belts overflow-y-auto">
                 <div id="tray-1" class="w-full mb-3 flex gap-3 -ml-28">
-                    <!-- movie tiles -->
-
-                    <template v-for="n in 28">
-                        <img v-if="n + 14 <= 28" :src="`/images/tiles/tile_${n + 14}.jpg`" class="w-96 rounded" />
-                    </template>
-
-
-                    <img src="@/images/tiles/tile_0.jpg" class="w-96" />
+                    <!-- movie tiles tray one -->
+                    <img v-for="pic in trayPics1" :key="pic" :src="pic" class="w-96" />
                 </div>
-                <!-- movie treadmill tray two -->
+                <!-- movie tile conveyor belt tray two -->
                 <div id="tray-2" class="w-full mb-3 flex gap-3">
-
-                    <template v-for="n in 28">
-                        <img v-if="n + 14 <= 28" :src="`/images/tiles/tile_${n}.jpg`" class="w-96 rounded" />
-                    </template>
-
+                    <!-- movie tiles tray two -->
+                    <img v-for="pic in trayPics2" :key="pic" :src="pic" class="w-96" />
                 </div>
             </div>
-
         </div>
     </section>
 </template>
@@ -33,12 +23,19 @@
 <script>
 import gsap from 'gsap'
 
+import { trayPics1, trayPics2 } from '~/constants/'
 
 export default {
     mounted() {
         this.scrollTrays()
     },
 
+    data() {
+        return {
+            trayPics1: trayPics1,
+            trayPics2: trayPics2,
+        }
+    },
     methods: {
 
         scrollTrays() {
