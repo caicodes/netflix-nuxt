@@ -1,5 +1,5 @@
 <template>
-    <section id="top" class="h-screen flex lg:pb-20 pb-10 ">
+    <section id="top" class="pt-28 md:pt-40 md:h-screen flex lg:pb-20 pb-10 ">
         <!-- movie hero main container -->
         <div class="flex flex-col w-full justify-center">
             <div class="text-2xl md:text-3xl text-center p-4 lg:p-8"> Now streaming blockbuster movies,
