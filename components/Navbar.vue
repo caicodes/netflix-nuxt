@@ -4,7 +4,7 @@
                     class="logo-brand-light text-secondary opacity-50 ml-0.5 ">vue</span></span>
         </nuxt-link>
 
-        <button class="mr-4 mt-2 btn md:hidden">
+        <button class="mobile-menu-btn mr-4 mt-2 btn btn-ghost md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -47,5 +47,11 @@
     letter-spacing: -.2rem;
     font-size: 3.2rem;
     line-height: 0%;
+}
+
+.mobile-menu-btn:hover,
+.mobile-menu-btn:active {
+    background: var(--secondary);
+    outline: none;
 }
 </style>

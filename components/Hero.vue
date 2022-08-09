@@ -1,13 +1,13 @@
 <template>
-    <section id="top" class="h-screen flex lg:pb-20 pb-10">
+    <section id="top" class="h-screen flex lg:pb-20 pb-10 ">
         <!-- movie hero main container -->
         <div class="flex flex-col w-full justify-center">
-            <div class="text-2xl md:text-3xl text-center p-4"> Now streaming blockbuster movies,
+            <div class="text-2xl md:text-3xl text-center p-4 lg:p-8"> Now streaming blockbuster movies,
                 epic originals,
                 and
                 addictive series...</div>
             <!-- movie tile conveyor belt container -->
-            <div class="conveyor-belts overflow-y-auto">
+            <div class="conveyor-belts overflow-hidden">
                 <div id="tray-1" class="w-full mb-3 flex gap-3 -ml-28">
                     <!-- movie tiles tray one -->
                     <img v-for="pic in trayPics1" :src="`./images/tiles/${pic}`" class="w-48  md:w-96" />
