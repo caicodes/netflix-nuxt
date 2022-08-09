@@ -3,11 +3,7 @@ import { FooterLinks, FooterActions, CopyrightText } from '~/constants';
 </script>
 
 <template>
-
-
-
     <footer class="footer footer-center p-4 md:p-8 lg:p-12 bg-base-100 text-base-content ">
-
         <div class="flex flex-wrap justify-center">
             <NuxtLink to="/" class="footer-links btn btn-ghost hover:bg-inherit hover:text-white"
                 v-for="Link in FooterActions">{{
@@ -21,12 +17,7 @@ import { FooterLinks, FooterActions, CopyrightText } from '~/constants';
         <div>
             <p class="text-xs text-primary/80">{{ CopyrightText }}</p>
         </div>
-
     </footer>
-
-
-
-
 </template>
 
 <style>
