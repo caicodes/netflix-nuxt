@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     },
   },
   meta: {
-    title: "HBO Vue - a Cai Toy clone...",
+    title: "NETFLIX Nuxt3 - a Cai Toy clone...",
   },
   gsap: {
     extraPlugins: {
