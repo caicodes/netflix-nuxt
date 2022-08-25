@@ -1,13 +1,8 @@
 <template>
-  <AnimatedBackground />
-  <Navbar />
-  <Hero />
-  <!-- <AcclaimedMovies /> -->
-  <DiscoverMore />
-  <FindYourNext />
-  <StreamAnytime />
-  <FavoriteDevices />
-  <WaysToGet />
-  <Questions />
-  <Footer />
+  <div>
+    <AnimatedBackground />
+    <Navbar />
+    <NuxtPage />
+    <Footer />
+  </div>
 </template>

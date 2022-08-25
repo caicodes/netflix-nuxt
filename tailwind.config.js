@@ -32,12 +32,9 @@ module.exports = {
       {
         netflix: {
           primary: "#e50914",
-          "primary-content": "#ffffff",
           secondary: "#c62828",
-          "secondary-content": "#ffffff",
           accent: "#c62828",
-          "accent-content": "#ffffff",
-          neutral: "#480cb0",
+          neutral: "#111111",
           "base-content": "#ffffff",
           "base-100": "#111111",
           "base-300": "#222222",
