@@ -2,6 +2,9 @@
   <section class="bg-base-100">
     <div class="questions py-16">
       <div class="flex flex-col max-w-screen-lg mx-auto px-8 py-16">
+        <h2 class="text-center text-4xl font-bold">
+          Frequently Asked Questions
+        </h2>
         <ContentList path="/questions" v-slot="{ list }">
           <div
             v-for="article in list"
