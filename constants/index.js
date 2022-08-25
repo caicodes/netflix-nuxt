@@ -1,27 +1,36 @@
 export const FooterLinks = [
-  "Privacy",
-  "Do Not Sell My Personal Information",
+  "FAQ",
+  "Investor Relations",
+  "Ways to Watch",
+  "Help Center",
+  "Account",
+  "Media Center",
+  "Jobs",
+  "Redeem Gift Cards",
+  "Buy Gift Cards",
   "Terms of Use",
-  "Ad Choices",
-  "Help",
-  "Join the Team",
-  "Press Releases",
-  "Company",
-  "Press Contacts",
-  "HBO Max Advertising",
-  "Affiliate Marketing Program",
-];
+  "Privacy",
+  "Cookie Preferences",
+  "Corporate Information",
+  "Contact Us",
+  "Speed Test",
+  "Legal",
+  "Notices",
+  "Only on Netflix",
+]
 
-export const FooterActions = [
-  "explore what's on",
-  "movies",
-  "tv shows",
-  "originals",
-  "free episodes",
-];
+export const FooterHeading = "Questions? Call 1-844-505-2993"
+
+// export const FooterActions = [
+//   "explore what's on",
+//   "movies",
+//   "tv shows",
+//   "originals",
+//   "free episodes",
+// ]
 
 export const CopyrightText =
-  "© 2022 WarnerMedia Direct, LLC. All Rights Reserved. HBO Max™ is used under license.";
+  "© 2022 WarnerMedia Direct, LLC. All Rights Reserved. HBO Max™ is used under license."
 
 export const trayPics1 = [
   "tile_15.jpg",
@@ -66,7 +75,7 @@ export const trayPics1 = [
   "tile_26.jpg",
   "tile_27.jpg",
   "tile_28.jpg",
-];
+]
 export const trayPics2 = [
   "tile_14.jpg",
   "tile_13.jpg",
@@ -113,4 +122,4 @@ export const trayPics2 = [
   "tile_2.jpg",
   "tile_1.jpg",
   "tile_0.jpg",
-];
+]

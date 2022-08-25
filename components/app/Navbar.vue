@@ -4,8 +4,8 @@
   >
     <NuxtLink to="/" class="flex items-center py-4"
       ><span class="logo-brand"
-        >HBO<span class="logo-brand-light text-secondary opacity-50 ml-0.5"
-          >vue</span
+        >NETFLIX<span class="logo-brand-light text-secondary opacity-80 ml-0.5"
+          >nuxt</span
         ></span
       >
     </NuxtLink>
@@ -30,12 +30,12 @@
     <div class="gap-2 mr-2 hidden md:flex">
       <NuxtLink
         to="/signin"
-        class="signup-button btn btn-secondary btn-ghost hover:bg-inherit btn-sm px-8 rounded-full"
+        class="signup-button btn btn-secondary btn-ghost hover:bg-inherit btn-sm px-8 rounded-none"
         >sign in</NuxtLink
       >
       <NuxtLink
         to="/signup"
-        class="signup-button btn btn-secondary btn-sm px-8 rounded-full"
+        class="signup-button btn btn-secondary btn-sm px-8 rounded-none"
         >sign up now</NuxtLink
       >
     </div>

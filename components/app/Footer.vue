@@ -1,19 +1,21 @@
 <script setup>
-import { FooterLinks, FooterActions, CopyrightText } from "~/constants";
+import { FooterHeading, FooterLinks, CopyrightText } from "~/constants"
 </script>
 
 <template>
   <footer
     class="footer footer-center p-4 md:p-8 lg:p-12 bg-base-100 text-base-content"
   >
-    <div class="flex flex-wrap justify-center flex-col md:flex-row">
+    <p>{{ FooterHeading }}</p>
+
+    <!-- <div class="flex flex-wrap justify-center flex-col md:flex-row">
       <NuxtLink
         to="/"
         class="footer-links btn btn-ghost hover:bg-inherit hover:text-white"
         v-for="Link in FooterActions"
         >{{ Link }}</NuxtLink
       >
-    </div>
+    </div> -->
     <div class="flex flex-wrap justify-center text-xs">
       <NuxtLink
         to="/"
@@ -40,6 +42,6 @@ import { FooterLinks, FooterActions, CopyrightText } from "~/constants";
 }
 
 .footer-links:hover {
-  color: white !important;
+  color: var(--primary-focus) !important;
 }
 </style>
