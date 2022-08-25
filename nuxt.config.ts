@@ -2,6 +2,11 @@ import { defineNuxtConfig } from "nuxt";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      link: [{ rel: "icon", type: "image/svg+xml", href: "/ac-icon.svg?v=2" }],
+    },
+  },
   modules: ["@nuxt/content"],
   css: ["@/styles/tailwind.css"],
   // modules: ["@nuxtjs/tailwindcss"], // no customization version
