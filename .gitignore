@@ -7,3 +7,6 @@ node_modules
 .env
 dist
 archive
+modules 
+.DS_Store
+.firebase

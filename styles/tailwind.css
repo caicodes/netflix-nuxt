@@ -3,18 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --primary: #9e86ff;
-  --primary-focus: #a991f7;
+  --primary: rgba(229, 9, 20, 1);
+  --primary-focus: rgba(229, 9, 20, 0.6);
   --primary-content: white;
-  --secondary: #b535f6;
-  --secondary-focus: #c800ff;
+  --secondary: #c62828;
+  --secondary-focus: #c62828;
   --secondary-content: white;
-  --accent: #7e22ce;
-  --accent-focus: #7b2abf;
-  --accent-content: #ff00e5;
-  --neutral: #480cb0;
-  --base-100: #030326;
-  --base-300: #0e0538;
+  --accent: #c62828;
+  --accent-focus: #c62828;
+  --accent-content: #ffffff;
+  --neutral: #222;
+  --base-100: #111111;
+  --base-300: #333333;
+
+  --nflix-logo: #e50914;
+  --nflix-logo-fill: rgb(229, 9, 20);
+  --nflix-background: #000000;
 }
 
 @font-face {
@@ -53,7 +57,7 @@
 }
 
 a {
-  color: #9e86ff;
+  color: var(--primary);
 }
 a:hover {
   color: white;
@@ -76,7 +80,7 @@ body {
 }
 
 .dBWzrh.btn--tertiary {
-  background-color: rgb(181, 53, 246);
+  background-color: var(--secondary);
   color: rgb(255, 255, 255);
   border: 2px solid transparent;
   overflow: hidden;
@@ -84,7 +88,7 @@ body {
 }
 
 .btn-color {
-  background: #b535f6;
+  background: var(--secondary);
 }
 
 .max-section-hero-dbl-scroll h1 {
@@ -94,11 +98,11 @@ body {
 }
 
 .max-section-marquee-title h4:before {
-  border-image-source: linear-gradient(to left, #7b2abf, transparent);
+  border-image-source: linear-gradient(to left, var(--accent), transparent);
   margin: 0 20px 0 0;
 }
 
 .max-section-marquee-title h4:after {
-  border-image-source: linear-gradient(to right, #7b2abf, transparent);
+  border-image-source: linear-gradient(to right, var(--accent), transparent);
   margin: 0 0 0 20px;
 }
