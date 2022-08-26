@@ -14,38 +14,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import gsap from "gsap"
-
-import { trayPics1, trayPics2 } from "~/constants/"
-
-export default {
-  mounted() {
-    this.scrollTrays()
-  },
-
-  data() {
-    return {
-      trayPics1: trayPics1,
-      trayPics2: trayPics2,
-    }
-  },
-  methods: {
-    scrollTrays() {
-      gsap.to("#tray-1", {
-        x: -10500,
-        duration: 228,
-        ease: "linear",
-        repeat: -1,
-      })
-      gsap.to("#tray-2", {
-        x: -10500,
-        duration: 168,
-        ease: "linear",
-        repeat: -1,
-      })
-    },
-  },
-}
-</script>
