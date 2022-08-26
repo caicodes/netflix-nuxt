@@ -1,4 +1,4 @@
-export const FooterLinks = [
+fexport const FooterLinks = [
   "FAQ",
   "Investor Relations",
   "Ways to Watch",
@@ -30,7 +30,7 @@ export const FooterHeading = "Questions? Call 1-844-505-2993"
 // ]
 
 export const CopyrightText =
-  "© 2022 WarnerMedia Direct, LLC. All Rights Reserved. HBO Max™ is used under license."
+  "© 2022 NetflixNuxt is a UI Clone/Study site by Cai Toy..."
 
 export const trayPics1 = [
   "tile_15.jpg",
