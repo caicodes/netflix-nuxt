@@ -1,4 +1,4 @@
-fexport const FooterLinks = [
+export const FooterLinks = [
   "FAQ",
   "Investor Relations",
   "Ways to Watch",
